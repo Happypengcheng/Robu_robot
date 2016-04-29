@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{07A94622-3135-41FC-BB7F-7F617946B9F2} = s 'MicroMecanum'
+		'MicroMecanum.EXE'
+		{
+			val AppID = s {07A94622-3135-41FC-BB7F-7F617946B9F2}
+		}
+	}
+}

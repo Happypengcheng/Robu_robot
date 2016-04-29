@@ -1,0 +1,382 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MicroMecanum.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MicroMecanum.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 MicroMecanum"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "MicroMecanum 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "若步科技版权所有 (C) 2015",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_MICROMECANUM_DIALOG DIALOGEX 0, 0, 413, 235
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Robu物流机器人运动控制系统"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,361,213,45,15
+    LTEXT           "仓库地图及小车路径",IDC_STATIC,7,7,77,8
+    PUSHBUTTON      "Button1",IDC_BUTTON1,361,7,45,15
+    PUSHBUTTON      "Button1",IDC_BUTTON2,361,26,45,15
+    PUSHBUTTON      "Button1",IDC_BUTTON3,361,45,45,15
+    PUSHBUTTON      "Button1",IDC_BUTTON4,361,64,45,15
+    PUSHBUTTON      "Button1",IDC_BUTTON5,361,83,45,15
+    PUSHBUTTON      "Button1",IDC_BUTTON6,361,102,45,15
+    PUSHBUTTON      "Button1",IDC_BUTTON7,361,121,45,15
+    PUSHBUTTON      "Button1",IDC_BUTTON8,361,140,45,15
+    PUSHBUTTON      "Button1",IDC_BUTTON9,361,159,45,15
+    EDITTEXT        IDC_EDIT1,7,49,31,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,17,59,31,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,26,68,31,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,35,77,31,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,45,87,31,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,54,96,31,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,63,105,31,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,73,115,31,13,ES_AUTOHSCROLL
+    LTEXT           "Static",IDC_STATIC1,7,22,399,8
+    EDITTEXT        IDC_EDIT9,94,46,31,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,103,55,31,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,113,65,31,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,131,83,31,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,141,93,31,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,150,102,31,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT16,159,111,31,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,122,74,31,13,ES_AUTOHSCROLL
+    LTEXT           "Static",IDC_STATIC2,7,175,399,8
+    CONTROL         "",IDC_MSCOMM1,"{648A5600-2C6E-101B-82B6-000000000014}",
+                    WS_TABSTOP,202,69,25,25
+    COMBOBOX        IDC_MULTICAM,79,7,60,23,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_RESOLUTION,141,7,64,18,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATICP1,"Static",SS_ENHMETAFILE,7,33,253,154
+    COMBOBOX        IDC_COMBO1,274,7,48,68,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "车头朝向：",IDC_STATIC,224,8,45,13
+    LTEXT           "Static",IDC_STATIC_Connect,327,7,32,15
+END
+
+IDD_DATADLG DIALOG DISCARDABLE  0, 0, 351, 270
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "路径编辑"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,294,7,50,14
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,7,171,290,92
+    EDITTEXT        IDC_EDIT101,7,32,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT102,14,39,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT103,21,46,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT104,28,53,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT105,35,60,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT106,42,67,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT107,49,74,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT108,56,81,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT109,94,30,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT110,101,37,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT111,108,44,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT112,115,51,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT113,122,58,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT114,129,65,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT115,136,72,28,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT116,143,79,28,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Button1",IDC_BUTTON1,294,27,50,14
+    PUSHBUTTON      "Button2",IDC_BUTTON2,294,47,50,14
+    PUSHBUTTON      "Button2",IDC_BUTTON3,294,67,50,14
+END
+
+IDD_COMDLG DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "串口设置"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,130,7,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON1,130,23,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON2,130,39,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON3,130,55,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON4,130,71,50,14
+END
+
+IDD_CAMDLG DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "相机设定"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,130,7,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON1,130,23,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON2,130,39,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON3,130,55,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON4,130,71,50,14
+END
+
+IDD_MOTIONDLG DIALOG DISCARDABLE  0, 0, 294, 253
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "运动控制设定"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,237,7,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON1,237,32,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON2,237,57,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON3,237,82,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON4,237,107,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON5,237,132,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON6,237,157,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON7,237,182,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON8,237,207,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON9,237,232,50,14
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,24,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MicroMecanum Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "MicroMecanum\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2015\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MicroMecanum.EXE\0"
+            VALUE "ProductName", "MicroMecanum 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_MICROMECANUM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 406
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 228
+    END
+
+    IDD_DATADLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 344
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 263
+    END
+
+    IDD_COMDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_CAMDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_MOTIONDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 287
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 246
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MICROMECANUM_DIALOG DLGINIT
+BEGIN
+    IDC_MSCOMM1, 0x376, 102, 0
+0x0013, 0x0000, 0x0043, 0x006f, 0x0070, 0x0079, 0x0072, 0x0069, 0x0067, 
+0x0068, 0x0074, 0x0020, 0x0028, 0x0063, 0x0029, 0x0020, 0x0031, 0x0039, 
+0x0039, 0x0034, 0x0020, 0x4321, 0x1234, 0x0008, 0x0000, 0x03ed, 0x0000, 
+0x03ed, 0x0000, 0x5601, 0x648a, 0x0000, 0x0006, 0x0000, 0x0001, 0x0400, 
+0x0000, 0x0200, 0x0000, 0x2580, 0x0000, 0x0000, 0x0008, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x003f, 0x0000, 0x0001, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 MicroMecanum(&A)..."
+    IDP_SOCKETS_INIT_FAILED "Windows 通信端口初始化失败。"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\MicroMecanum.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
